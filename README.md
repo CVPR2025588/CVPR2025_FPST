@@ -5,11 +5,12 @@
 ## Getting Started
 - Clone the repo:
     ```
-    git clone https://github.com/ECCV-ATD/Attribute-Transfer-Diffusion-with-Formulated-Prompts-for-Face-Synthesis.git
+    git clone https://github.com/CVPR2025588/CVPR2025_FPST.git
     ```
 ## Installation
 ```python
 conda create --name FPST python=3.9
+cd FPST
 conda activate FPST
 pip install -r requirements.txt
 ```
