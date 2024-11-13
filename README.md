@@ -1,6 +1,5 @@
-# Attribute-Transfer Diffusion with Formulated Prompts for Face Synthesis
-![workflow.png](workflow.png)
-> **Abstract:** We propose an innovative approach to address the limitations associated with real-world facial data, particularly concerning issues of data imbalance, privacy concerns, and the annotation of attributes such as ethnicity, gender, and age. Our methodology comprises two interdependent modules: the Unique Face Generator (UFG) and the Attribute-Transfer Diffusion Model (ATD). The UFG is meticulously configured to generate unique frontal faces, each precisely tailored to specified ethnicity, gender, and age intervals. Leveraging advanced techniques including ChatGPT for prompt generation, ControlNet for steering the synthesis process, and Stable Diffusion for enhanced stability and realism, the UFG ensures the creation of diverse and realistic facial representations. Subsequently, the UFG-generated faces serve as input for the ATD module, which excels in duplicating styles from a given set of reference faces onto the input face while meticulously preserving the original facial identity. Our approach not only ensures the preservation of identity information within specific demographic groups but also enhances the diversity of the generated faces, effectively mitigating issues of data imbalance and privacy concerns prevalent in real-world datasets. To evaluate the efficacy of our approach, we curated three synthetic datasets, namely Syn-MPIE, Syn-MS1M, and Syn-CASIA, and compared them with their real-world counterparts for face recognition tasks. Through comprehensive comparative analyses against state-of-the-art methods, we demonstrate the distinct advantages and efficacy of our proposed approach. By integrating cutting-edge technologies such as ChatGPT, ControlNet, and Stable Diffusion, our approach offers a novel and effective solution for generating synthetic faces with unparalleled diversity, fidelity, and utility.
+# Formulated Diffusion with Transferred Attributes for Face Synthesis and Recognition
+> **Abstract:** We propose the Formulated Diffusion with Transferred Attributes (FDTA) framework to synthesize faces of user-specified attributes and apply the synthesized faces to train face recognition models. Our work addresses several important issues associated with models trained on real faces, including attribute imbalance, privacy concerns, and the complexities of data annotation. The proposed FDTA framework comprises two synergistic modules: the Attribute Controllable Generator (ACG) and the Style Transfer Generator (STG). The ACG aims to create unique face images with user-specified attributes including gender, race, age, facial shape, and others. It integrates ChatGPT in the design of formulated prompts that drive a Stable Diffusion model coupled with ControlNet to generate quality face images with desired attributes. The formulated prompts are designed based on learning from interactions with ChatGPT. Given an ACG-generated face and a reference face, the STG generates a target face of the same identity as the ACG-generated face but in the style of the reference face.Our approach enables users to specify attributes and diversify styles when making synthetic data for different applications. To evaluate the effectiveness of our approach, we generated four synthetic datasets, namely Syn-MPIE, Syn-MS1M, Syn-VGGFace2 and Syn-CASIA, and compared them with their real-life counterparts. We also benchmark our approach against other state-of-the-art methods that use synthetic data for face recognition.
 >
 > 
 ## Getting Started
@@ -10,8 +9,8 @@
     ```
 ## Installation
 ```python
-conda create --name ATD python=3.9
-conda activate ATD
+conda create --name FPST python=3.9
+conda activate FPST
 pip install -r requirements.txt
 ```
 ## Pretrained Models
