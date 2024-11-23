@@ -21,9 +21,3 @@ pip install -r requirements.txt
 
 - Syn-MPIE (2K ids/0.36M images)
   - [Google Drive](https://drive.google.com/drive/folders/1NQgHm_CM7zgnXtq_Vs5K6Y3s3zmEu8ZT?usp=sharing)
-
-## Validation (LFW, CFPFP, CPLFW, CALFW, AGEDB)
-Please download the validation set from [insightface](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_)
-```python
-python verification_torch.py
-```
