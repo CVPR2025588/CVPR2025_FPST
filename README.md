@@ -8,3 +8,9 @@
 
 ## Syn-MPIE (2K ids/0.36M images)
 - [Google Drive](https://drive.google.com/drive/folders/1NQgHm_CM7zgnXtq_Vs5K6Y3s3zmEu8ZT?usp=sharing)
+
+## Comparison with SOTA Models 
+![table.png](table.png)
+Verification accuracy on benchmarks of Our FR model with SOTA method. Our approach shows superior handling of cross-pose challenges, 
+notably in the CFP-FP[29] benchmark, while DCFace is particularly adept with the age variations in AgeDB. 
+The data reflects Syn-MS1M’s consistently higher accuracy, underscoring the effectiveness of our approach in diverse face recognition scenarios.
