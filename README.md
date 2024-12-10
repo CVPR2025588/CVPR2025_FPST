@@ -7,6 +7,9 @@
 - [Google Drive](https://drive.google.com/drive/folders/1TN_FftxXr_IP0iqsnu11itPGpCyfpYTo?usp=sharing)
 
 ## Syn-MPIE (2K ids/0.36M images)
+The Multi-PIE database features four sessions with 337 subjects, capturing diverse facial poses, lighting conditions, and expressions. Selected parameters include 13 yaw angles (-90° to +90° in 15° steps), seven lighting conditions (-60° to +60° in 30° intervals, plus overhead and ambient lighting), and two expressions (neutral and smiling). Each identity generated 182 synthetic data points, forming the Syn-MPIE-2000 dataset.
+![table1.jpg](table1.jpg)
+### Syn-MPIE Download link
 - [Google Drive](https://drive.google.com/drive/folders/1NQgHm_CM7zgnXtq_Vs5K6Y3s3zmEu8ZT?usp=sharing)
 
 ## Comparison with SOTA Models 
