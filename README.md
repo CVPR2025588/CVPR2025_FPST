@@ -6,8 +6,9 @@
 ## Syn-MS1M 
 The MS1Mv3 dataset, with 93,432 subjects and 5,179,510 images, presents challenges due to subject variability. Using ACG, we assigned each synthetic identity a unique MS1Mv3 subject for STG style augmentation, generating the Syn-MS1M-10K, Syn-MS1M-20K, Syn-MS1M-50K, and Syn-MS1M-100K datasets.
 
-![mpie_sample.jpg](mpie_sample.jpg)
-### Syn-MS1M (10K ids/1M images) Download link
+![ms1m_sample.jpg](ms1m_sample.jpg)
+
+### Syn-MS1M (10K ids/1M images)
 Below is the Google Drive download link for Syn-MS1M, where each subject has undergone age and pose augmentation, including 10k subjects and 1M images.
 - [Google Drive](https://drive.google.com/drive/folders/1TN_FftxXr_IP0iqsnu11itPGpCyfpYTo?usp=sharing)
 
@@ -15,7 +16,8 @@ Below is the Google Drive download link for Syn-MS1M, where each subject has und
 The Multi-PIE database features four sessions with 337 subjects, capturing diverse facial poses, lighting conditions, and expressions. Selected parameters include 13 yaw angles (-90° to +90° in 15° steps), seven lighting conditions (-60° to +60° in 30° intervals, plus overhead and ambient lighting), and two expressions (neutral and smiling). Each identity generated 182 synthetic data points, forming the Syn-MPIE-2000 dataset.
 
 ![mpie_sample.jpg](mpie_sample.jpg)
-### Syn-MPIE (2K ids/0.36M images) Download link
+
+### Syn-MPIE (2K ids/0.36M images)
 Below is the Google Drive download link for Syn-MPIE, which includes 10k subjects and 0.36M images.
 - [Google Drive](https://drive.google.com/drive/folders/1NQgHm_CM7zgnXtq_Vs5K6Y3s3zmEu8ZT?usp=sharing)
 
