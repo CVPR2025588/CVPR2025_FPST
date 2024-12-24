@@ -28,6 +28,13 @@ If you want to convert a train.rec file to JPG files, you can use rec2image.py t
 python rec2image.py --rec_path YOUR train.rec FILE PATH --output_dir YOUR DESIRED OUTPUT LOCATION
 ```
 
+## Pretrained Models
+| Architecture | Dataset      | Images (IDs×imgs)      | Link
+|--------------|--------------|-----------|-----------|
+| LResNet50E-IR          | Syn-MS1M | 0.5M (10K) | [Google Drive]() |
+| LResNet50E-IR          | Syn-MS1M-Ma | 0.5M (10K×50) | [Google Drive]() |
+| LResNet50E-IR          | Syn-MPIE | 0.36M (2K×182) | [Google Drive](https://drive.google.com/file/d/1MPU8gNiK9E1sBe_p6kLj4juPMR4o_nQF/view?usp=sharing) |
+
 ## Comparison with SOTA Models 
 ![table1.jpg](table1.jpg)
 Verification accuracy on benchmarks of Our FR model with SOTA method. Our approach shows superior handling of cross-pose challenges, 
