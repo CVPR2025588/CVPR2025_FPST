@@ -21,7 +21,7 @@ The Multi-PIE database features four sessions with 337 subjects, capturing diver
 Below is the Google Drive download link for Syn-MPIE, which includes 10k subjects and 0.36M images.
 - [Google Drive](https://drive.google.com/drive/folders/1NQgHm_CM7zgnXtq_Vs5K6Y3s3zmEu8ZT?usp=sharing)
 
-## train.rec file to JPG files 
+## Train.rec to JPG  
 If you want to convert a train.rec file to JPG files, you can use rec2image.py to extract the images.
 
 ```
