@@ -19,14 +19,18 @@ The MS1Mv3 dataset, with 93,432 subjects and 5,179,510 images, presents challeng
 
 ![ms1m_sample.jpg](ms1m_sample.jpg)
 
+The image above shows examples of synthetic faces from the Syn-MS1M dataset. The leftmost face $I_p$ is the source, while the 13 faces to the right $I_t$ are the styled results. Below each $I_t$ is the CSIM score (computed using Arcface) comparing $I_p$ and $I_t$. The top row shows the reference styles $I_r$ used for the transfer.
+
 ### Syn-MS1M (10K ids/1M images)
 Below is the Google Drive download link for Syn-MS1M, where each subject has undergone age and pose augmentation, including 10k subjects and 1M images.
 - [Google Drive](https://drive.google.com/drive/folders/1TN_FftxXr_IP0iqsnu11itPGpCyfpYTo?usp=sharing)
 
 ## Syn-MPIE 
-The Multi-PIE database features four sessions with 337 subjects, capturing diverse facial poses, lighting conditions, and expressions. Selected parameters include 13 yaw angles (-90° to +90° in 15° steps), seven lighting conditions (-60° to +60° in 30° intervals, plus overhead and ambient lighting), and two expressions (neutral and smiling). Each identity generated 182 synthetic data points, forming the Syn-MPIE-2000 dataset.
+The original Multi-PIE database offers a diverse collection of facial data, featuring variations in pose, lighting, and expression. From this dataset, we selected 13 facial orientations (yaw angles ranging from -90° to +90° in 15° increments), seven lighting conditions, and two expressions (neutral and smiling). For each unique identity, 182 synthetic faces were generated. We conducted experiments with 200, 500, and 2000 unique identities, resulting in the creation of the Syn-MPIE-200, Syn-MPIE-500, and Syn-MPIE-2000 datasets, respectively.
 
 ![mpie_sample.jpg](mpie_sample.jpg)
+
+The image above shows examples of synthetic faces in the MPIE dataset. The leftmost face $I_p$ is the source, the bottom row $I_t$ shows styled results, and the top row $I_r$ displays reference styles, each with a frontal image and pose variations. CSIM scores (computed using ArcFace) compare the frontal image with its pose variations in both $I_t$ and $I_r$. The light blue CSIM below $I_t$’s frontal image indicates its similarity to the source $I_p$.
 
 ### Syn-MPIE (2K ids/0.36M images)
 Below is the Google Drive download link for Syn-MPIE, which includes 10k subjects and 0.36M images.
