@@ -14,7 +14,6 @@ conda create --name FDTA python=3.9
 conda activate FDTA
 pip install -r requirements.txt
 ```
-
 ## Syn-MS1M 
 The MS1Mv3 dataset, with 93,432 subjects and 5,179,510 images, presents challenges due to subject variability. Using ACG, we assigned each synthetic identity a unique MS1Mv3 subject for STG style augmentation, generating the Syn-MS1M-10K, Syn-MS1M-20K, Syn-MS1M-50K, and Syn-MS1M-100K datasets.
 
@@ -46,6 +45,12 @@ python rec2image.py --rec_path YOUR train.rec FILE PATH --output_dir YOUR DESIRE
 | LResNet50E-IR          | Syn-MS1M | 0.5M (10K) | [Google Drive]() |
 | LResNet50E-IR          | Syn-MS1M-Ma | 0.5M (10K×50) | [Google Drive]() |
 | LResNet50E-IR          | Syn-MPIE | 0.36M (2K×182) | [Google Drive](https://drive.google.com/file/d/1MPU8gNiK9E1sBe_p6kLj4juPMR4o_nQF/view?usp=sharing) |
+
+## Validation (LFW, CFPFP, CPLFW, CALFW, AGEDB)
+Please download the validation set from [insightface](https://github.com/deepinsight/insightface/tree/master/recognition/_datasets_)
+```python
+python verification_torch.py
+```
 
 ## Comparison with SOTA Models 
 ![table1.jpg](table1.jpg)
