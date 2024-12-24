@@ -31,5 +31,5 @@ python rec2image.py --rec_path YOUR train.rec FILE PATH --output_dir YOUR DESIRE
 ## Comparison with SOTA Models 
 ![table1.jpg](table1.jpg)
 Verification accuracy on benchmarks of Our FR model with SOTA method. Our approach shows superior handling of cross-pose challenges, 
-notably in the CFP-FP[29] benchmark, while DCFace is particularly adept with the age variations in AgeDB. 
+notably in the CFP-FP benchmark, while DCFace is particularly adept with the age variations in AgeDB. 
 The data reflects Syn-MS1M’s consistently higher accuracy, underscoring the effectiveness of our approach in diverse face recognition scenarios.
