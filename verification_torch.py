@@ -356,7 +356,7 @@ if __name__ == '__main__':
     vec = args.model.split(',')
     prefix = args.model.split(',')[0]
 
-    resnet = get_model('LResNet50E_IR', dropout=0, fp16=False).cuda()
+    resnet = get_model('r50', dropout=0, fp16=False).cuda()
     resnet.load_state_dict(torch.load(args.model))
     model = torch.nn.DataParallel(resnet)
     model.eval()
