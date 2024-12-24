@@ -21,6 +21,13 @@ The Multi-PIE database features four sessions with 337 subjects, capturing diver
 Below is the Google Drive download link for Syn-MPIE, which includes 10k subjects and 0.36M images.
 - [Google Drive](https://drive.google.com/drive/folders/1NQgHm_CM7zgnXtq_Vs5K6Y3s3zmEu8ZT?usp=sharing)
 
+## train.rec file to JPG files 
+If you want to convert a train.rec file to JPG files, you can use rec2image.py to extract the images.
+
+```
+python rec2image.py --rec_path YOUR train.rec FILE PATH --output_dir YOUR DESIRED OUTPUT LOCATION
+```
+
 ## Comparison with SOTA Models 
 ![table1.jpg](table1.jpg)
 Verification accuracy on benchmarks of Our FR model with SOTA method. Our approach shows superior handling of cross-pose challenges, 
