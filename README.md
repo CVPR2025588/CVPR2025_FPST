@@ -47,7 +47,7 @@ python rec2image.py --rec_path YOUR train.rec FILE PATH --output_dir YOUR DESIRE
 | Architecture | Dataset      | Link
 |--------------|--------------|-----------|
 | LResNet50E-IR          | Syn-MS1M-10K | [Google Drive](https://drive.google.com/drive/folders/1TIBF4dSXZeTUSshphV7YiV7E-OkdMYYV?usp=sharing) |
-| LResNet50E-IR          | Syn-MS1M-10K+ $M_a$ +STG | [Google Drive](https://drive.google.com/drive/folders/1NJzRvQLU57j-GMgLX1zkkMkfBbL0LzGT?usp=sharing) |
+| LResNet50E-IR          | Syn-MS1M-10K+ $M_a$ +STG | [Google Drive](https://drive.google.com/drive/folders/170Ympy3Ko_SaRtvhoB1kH4kMqOBFPja7?usp=sharing) |
 | LResNet50E-IR          | Syn-MPIE-2000 | [Google Drive](https://drive.google.com/file/d/1MPU8gNiK9E1sBe_p6kLj4juPMR4o_nQF/view?usp=sharing) |
 
 ## Validation (LFW, CFPFP, CPLFW, CALFW, AGEDB)
